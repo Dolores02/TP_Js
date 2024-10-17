@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP JAVASCRIPT DOLORES VIDELA</title>
+  </head>
+  <body>
+  <div class>
+    <p>Este es el primer parrafo.</p>
+    <p>Este es el segundo parrafo.</p>
+    <p>Este es el tercer parrafo.</p>
+    <button id="cambiarColor">Cambiar color a azul</button>
+  </div>
+  <div>
+    <h2>Formulario con alerta</h2>
+    <form>
+      <label for="inputTexto">Ingresa un texto:</label>
+      <input type="text" id="inputTexto">
+      <button type="button" onclick="mostrarAlerta()">MOSTRAR ALERTA</button>
+    </form>
+  </div>
+  <div>
+    <h2>Lista con elementos</h2>
+    <ul id="miLista">
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+      <li>Elemento 4</li>
+  </ul>
+  </div>
+  <div class="formulario">
+    <h2>Campo de texto y botones</h2>
+    <input type="text" id="miCampoTexto" placeholder="Ingresa algo">
+    <button type="button" onclick="deshabilitarCampo()">Deshabilitar Campo</button>
+    <button type="button" onclick="habilitarCampo()">Habilitar Campo</button>
+</div>
+<div class="formulario">
+  <h2>Formulario</h2>
+  <label for="correo">Correo Electrónico:</label>
+  <input type="email" id="correo" placeholder="example@gmail.com">
+  <button type="button" onclick="guardarCorreo()">Guardar Correo</button>
+  <p id="correoGuardado"></p>
+  <button type="button" onclick="eliminarCorreo()">Eliminar Correo Guardado</button>
+</div>
+    <script src="main.js"></script>
+  </body>
+</html>
